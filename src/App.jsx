@@ -6,6 +6,7 @@ import { useGSAP } from '@gsap/react';
 import Layers from './components/layers';
 import Header from './components/header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/home';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin, useGSAP);
 
@@ -15,7 +16,7 @@ function App() {
       <main>
         <Header />
         <Routes>
-          <Route path="/" element={<h1>...</h1>} />
+          <Route path="/" element={<Home />} />
           <Route path="/layers" element={<Layers />} />
         </Routes>
       </main>

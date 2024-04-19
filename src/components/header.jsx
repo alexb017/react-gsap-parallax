@@ -21,7 +21,10 @@ export default function Header() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/layers">Layers Section</Link>
+            <Link to="/images">Images</Link>
+          </li>
+          <li>
+            <Link to="/layers">Layers</Link>
           </li>
         </ul>
       </nav>
